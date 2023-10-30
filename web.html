@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <link rel="shortcut icon" href="./imgs/สมุทรสงคราม.jpg" type="image/png" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top" data-bs-theme="dark">
+        <div class="container-fluid bg-primary">
+            <a class="navbar-brand" href="#" class="fw-5">สมุทรสงคราม</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./web.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./infomation.html">ข้อมูล</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            สถานที่
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="./place.html">สถานที่ท่องเที่ยว</a></li>
+                            <li><a class="dropdown-item" href="./eat.html">สถานที่กิน</a></li>
+                            <li><a class="dropdown-item" href="./resident.html">สถานที่พัก</a></li>
+
+
+                        </ul>
+                    </li>
+
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- /////////////////////////////////////////////////////////////////////////////////// -->
+    <!-- carousel -->
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./imgs/ตลาดน้ำบางน้อย1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./imgs/ตลาดน้ำอัมพวา1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./imgs/ตลาดร่มหุบ1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./imgs/ร้านอาหารบ้านขุน1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./imgs/อุทยาน1.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- ///////////////////////////////////////////////////////////////////// -->
+    <!-- Card -->
+    <div class="row justify-content-center">
+        <div class="col-lg-1 col-md-6 p-1"></div>
+        <div class="card" style="width: 18rem;">
+            <img src="./imgs/สมุทรสงคราม.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">ตราประจำจังหวัดสมุทรสงคราม : รูปกลองลอยน้ำ</h5>
+                <p class="card-text">ชื่อเดิมของจังหวัดนี้คือเมืองแม่กลอง เพราะตั้งอยู่ริมฝั่งลำแม่น้ำแม่กลอง
+                    ซึ่งเป็นเส้นทางคมนาคมสำคัญมาแต่สมัยโบราณ ตราของจังหวัดจึงทำเป็นรูปกลองลอยน้ำสองฟากฝั่งเป็นต้นมะพร้าว
+                    อันเป็นสัญลักษณ์อาชีพหลักของจังหวัด</p>
+                <a href="./infomation.html" class="btn btn-primary">เพิ่มเติม</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="./imgs/flagskm.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">ธงประจำจังหวัดสมุทรสงคราม</h5>
+                <p class="card-text">ธงพื้นสีน้ำเงิน-ขาว-น้ำเงินแบ่งตามแนวตั้ง กลางธงมีตราประจำจังหวัดรูปกลองลอยน้ำ</p>
+                <a href="./infomation.html" class="btn btn-primary">เพิ่มเติม</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="./imgs/flowerskm.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">ดอกไม้และต้นไม้ประจำจังหวัดสมุทรสงคราม</h5>
+                <p class="card-text">ดอกจิกทะเล (Barringtonia Asiatica)</p>
+                <a href="./infomation.html" class="btn btn-primary">เพิ่มเติม</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
